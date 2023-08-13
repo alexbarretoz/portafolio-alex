@@ -24,11 +24,24 @@ body {
 
 
 
+#format {
+  background: #1e2b38;
+}
+
+
 #home .container{
 
     padding-top: 100px;
-
+    padding-bottom: 30px;
+   
 }
+
+#home #text1{
+
+  color: #ffff;
+ 
+}
+
 
 #skill .container{
 
