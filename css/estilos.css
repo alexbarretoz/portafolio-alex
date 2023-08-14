@@ -26,6 +26,13 @@ body {
 
 #format {
   background: #1e2b38;
+
+}
+
+#format #foto {
+  width: 300px ;
+  padding-top: 50px;
+
 }
 
 
