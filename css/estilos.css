@@ -88,6 +88,11 @@ background: #1e2b38;
  height: 300px;
 }
 
+#contact-section .fa-whatsapp,.fa-envelope,.fa-linkedin,.fa-github {
+  font-size: 60px; /* tamaño de los iconos*/
+  color: #fff
+}
+
 
 
 
