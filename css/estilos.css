@@ -89,10 +89,16 @@ background: #1e2b38;
 }
 
 #contact-section .fa-whatsapp,.fa-envelope,.fa-linkedin,.fa-github {
+  padding-bottom: 20px;
   font-size: 60px; /* tamaño de los iconos*/
   color: #fff
+  
 }
 
+#contact-section .fa-whatsapp:hover{color: #0db631;}
+#contact-section .fa-linkedin:hover{color: #0078da;}
+#contact-section .fa-envelope:hover{color: #cc6709;}
+#contact-section .fa-github:hover{color: #000000;}
 
 
 
