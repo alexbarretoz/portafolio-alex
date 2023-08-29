@@ -56,6 +56,18 @@ body {
   padding-top: 100px;
 }
 
+
+.img {
+  align-content: center;
+}
+
+
+.img .format{
+  width: 100px;
+  align-content: center;
+}
+
+
 #projects-section .container-fluid{
 
   padding-top: 30px;
