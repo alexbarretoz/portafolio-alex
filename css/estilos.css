@@ -77,10 +77,11 @@ body {
 
 #contact-section .container{
   padding-top: 70px ;
+  background: #1e2b38;
 }
 
 
-#contact-section {
+#contact-section{
 
 background: #1e2b38;
 }
@@ -89,17 +90,18 @@ background: #1e2b38;
 #contact-section #text {
 
   color: #ffff;
-  }
+}
 
 
 #projects-section {
   padding-bottom: 70px;
 
-  }
+}
 
 #projects-section .project{
  width: 300px;
  height: 300px;
+ margin-bottom: 30px;
 }
 
 #contact-section .fa-whatsapp,.fa-envelope,.fa-linkedin,.fa-github {
@@ -108,6 +110,17 @@ background: #1e2b38;
   color: #fff
   
 }
+
+
+.copi{ 
+text-align: center;
+font-size: 10px;
+margin-bottom: 10px;
+margin-top: -40px;
+}
+
+
+
 
 .skill .progress {
   background-color: #cde1f8;
