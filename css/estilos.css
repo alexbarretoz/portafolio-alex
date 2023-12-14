@@ -93,6 +93,7 @@ background: #1e2b38;
 }
 
 
+
 #projects-section {
   padding-bottom: 70px;
 
@@ -103,6 +104,12 @@ background: #1e2b38;
  height: 300px;
  margin-bottom: 30px;
 }
+
+#projects-section .project span{
+  color: #fff;                                                                                                                                                                                                                           ;
+
+  }
+
 
 #contact-section .fa-whatsapp,.fa-envelope,.fa-linkedin,.fa-github {
   padding-bottom: 20px;
