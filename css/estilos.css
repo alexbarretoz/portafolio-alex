@@ -1,7 +1,10 @@
 
 body {
-    background-color: #f5f5f5;
-    color: #4e4e4e;
+   
+    background-image:url("../img/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+   background-repeat: no-repeat;
   }
 
   
@@ -53,8 +56,16 @@ body {
 
 #skill .container{
 
-  padding-top: 100px;
+  padding-top: 120px;
 }
+
+
+#skill .container #tab-final{
+margin-top: 130px;
+ 
+}
+
+
 
 
 .img {
@@ -72,7 +83,7 @@ body {
 
 #projects-section .container-fluid{
 
-  padding-top: 30px;
+  padding-top: 70px;
 }
 
 #contact-section .container{
@@ -95,14 +106,14 @@ background: #1e2b38;
 
 
 #projects-section {
-  padding-bottom: 70px;
+  padding-bottom: 90px;
 
 }
 
 #projects-section .project{
  width: 300px;
  height: 300px;
- margin-bottom: 30px;
+ margin-bottom: 60px;
 }
 
 #projects-section .project span{
