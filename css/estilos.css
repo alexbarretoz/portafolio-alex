@@ -40,6 +40,7 @@ body {
 }
 
 
+
 #home .container{
 
     padding-top: 100px;
@@ -157,6 +158,29 @@ margin-top: -40px;
 #contact-section .fa-linkedin:hover{color: #0078da;}
 #contact-section .fa-envelope:hover{color: #cc6709;}
 #contact-section .fa-github:hover{color: #000000;}
+
+
+
+@media screen and (max-width: 500px){
+  /* cunado estes en pantalla y maximo 800 px*/ 
+ 
+  #format .fotoperfil {
+    
+    
+    align-content: center;
+    text-align: center;
+  
+  }
+
+  #projects-section .project{
+    align-content: center;
+    text-align: center;
+    margin-left: 65px;
+   }
+
+
+
+  }
 
 
 
