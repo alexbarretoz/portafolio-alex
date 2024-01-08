@@ -73,17 +73,19 @@ margin-top: 130px;
   text-align: center;
   padding-top:50px;
   padding-bottom: 70px;
+ 
 }
 
 
 .img .format{
   width: 100px;
-  align-content: center;
+  align-content: center; 
+  transition: .5s ease;
 }
 
-
-
-
+.img .format:hover{
+  transform: scale(1.2);
+}
 
 
 #projects-section .container-fluid{
@@ -251,6 +253,17 @@ margin-top: -40px;
   height: .7rem;
   background-color: #0078ff;
 }
+
+
+#contact-section i{
+  transition: .5s ease;
+}
+
+#contact-section i:hover{
+  transform: scale(1.15);
+}
+
+
 
 #contact-section .fa-whatsapp:hover{color: #0db631;}
 #contact-section .fa-linkedin:hover{color: #0078da;}
