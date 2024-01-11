@@ -263,6 +263,10 @@ margin-top: -40px;
   transform: scale(1.15);
 }
 
+.fade-out {
+  opacity: 0; /* Define la opacidad inicial como 0 */
+  transition: opacity 0.5s ease-out; /* Agrega una transición de 0.5 segundos con función de temporización ease-out */
+}
 
 
 #contact-section .fa-whatsapp:hover{color: #0db631;}
