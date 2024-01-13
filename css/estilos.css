@@ -216,6 +216,80 @@ width: 50%;
 
 
 
+#multi-text{
+font-size: 34px;
+font-weight: 600;
+min-width: 200px;
+
+}
+
+#multi-text span {
+  position: relative;
+}
+
+#multi-text span::before{
+  position: relative;
+  content: "Alex Barreto";
+  color: cyan;
+  animation: words 20s infinite;
+}
+
+#multi-text span::after{
+  position: absolute;
+  content: "";
+  width: calc(100% + 8px);
+  height: 50px;
+  background-color: #1e2b38;
+  border-left: 2px solid  cyan;
+  right: -8px;
+  animation: cursor .8s infinite, typing 20s steps(14) infinite;
+  
+}
+
+
+@keyframes cursor{
+  to{
+    border-left: 2px solid #ff7f5000;
+  }
+
+}
+
+@keyframes words {
+  0%,20%{
+    content: "Alex Barreto";
+  }
+
+  21%,40%{
+    content: "Backend Developer";
+  }
+
+  41%,60%{
+    content: "FullStack Developer";
+  }
+
+  61%,80%{
+    content: "Engineer";
+  }
+
+  
+  81%,100%{
+    content: "Programer";
+  }
+
+
+}
+
+@keyframes typing {
+
+  10%,15%,30%,50%,55%,70%,75%,90%,95%{
+    width: 0;
+  }
+ 5%,20%,25%,40%,45%,60%,65%,80%,85%{
+
+  width: calc(100% + 8px);
+ }
+
+}
 
 
 
