@@ -14,7 +14,7 @@ body {
 }
 
 #menu:hover {
-  color: #0078ff;
+  color: cyan;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -214,6 +214,11 @@ width: 50%;
 }
 
 
+
+#contact-section #textx{
+
+  color:cyan;
+}
 
 
 #multi-text{
