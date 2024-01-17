@@ -20,6 +20,13 @@ body {
 }
 
 
+#logo:hover {
+  color: cyan;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+
 #mainNav {
   background: #1e2b38;
 
@@ -209,8 +216,6 @@ margin-bottom: 1rem;
 .proyect-layer a img {
 width: 50%;
 
-
-
 }
 
 
@@ -366,6 +371,14 @@ margin-top: -40px;
   
   }
 
+
+  #format #foto {
+    width: 300px ;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  
+  }
+
   .proyects-container{
     display: block;
     grid-template-columns: repeat(3, 1fr);
@@ -379,6 +392,17 @@ margin-top: -40px;
     margin-bottom: 3rem;
 
 
+  }
+
+  #home{
+    padding-top: -60px;
+  }
+
+  #format #foto {
+    width: 300px ;
+    padding-top: 50px;
+    padding-bottom: -20px;
+  
   }
 
 }
