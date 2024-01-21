@@ -373,7 +373,7 @@ margin-top: -40px;
  
   #format .fotoperfil {
     
-    
+ 
     align-content: center;
     text-align: center;
   
@@ -381,9 +381,9 @@ margin-top: -40px;
 
 
   #format #foto {
-    width: 400px ;
+    width: 300px ;
     padding-top: 50px;
-    padding-bottom: 0px;
+    padding-bottom: -20px;
   
   }
 
@@ -403,7 +403,8 @@ margin-top: -40px;
   }
 
   #home{
-    padding-top: -60px;
+    padding-top: -80px;
+  
   }
 
   #format #foto {
